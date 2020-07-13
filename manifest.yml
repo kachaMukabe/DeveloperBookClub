@@ -1,0 +1,12 @@
+modules:
+  'jira:issuePanel':
+    - key: developer-bookclub-hello-world-panel
+      function: main
+      title: Developer Bookclub
+      description: A Developers Monthly Bookclub.
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/5133ff01-db4c-4f7c-8d86-e30de8c6e033'
+  name: Developer Bookclub
